@@ -11,7 +11,7 @@
     --gray-400: #94a3b8;
     --gray-200: #e2e8f0;
     --purple: #7c3aed;
-    --light-puerple:#9F67FF;
+    --light-puerple: #9F67FF;
     --white: #fff;
 }
 
@@ -108,10 +108,12 @@ main {
     font-weight: 700;
     color: var(--white);
 }
+
 .login button:hover {
     background: var(--light-puerple);
     transition: 0.3s;
 }
+
 .login>p {
     color: var(--gray-600);
 }
@@ -128,12 +130,13 @@ main {
 @media(min-width:1000px) {
     body {
         display: flex;
+        height: 100vg;
     }
 
     header {
         background: none;
         justify-content: flex-start;
-        padding: 2.5rem 7rem 7rem ;
+        padding: 2.5rem 7rem 7rem;
 
         height: fit-content;
         max-width: 24rem;
@@ -160,9 +163,15 @@ main {
         display: block;
         width: 100%;
     }
+    .bg-desktop img{
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
     .descricao h1 {
         font-size: 2.25rem;
     }
+
     .descricao p {
         font-size: 1rem;
     }
